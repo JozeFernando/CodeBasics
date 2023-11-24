@@ -1,2 +1,2 @@
-# Programa-o-Basica
+# Programação-do-Basico
 Informações Basicas sobre os programas aprendidos
