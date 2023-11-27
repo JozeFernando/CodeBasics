@@ -13,3 +13,4 @@ rm nome-do-arquiv0: remove o arquivo do diretorio
 rmdir nome-do-diretorio: remnove o diretorio
 cd .. : Retorna uma pasta que você estava
 nano : abri editor de texto
+cat: exibe oque está dentro do arquivo
