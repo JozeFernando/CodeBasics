@@ -1,0 +1,3 @@
+Verificando versão : git --version
+Lista de configurações dentro do git : git config --global --list        / Para sair basta apertar "Q"
+Configurar usuario: git config --global user.name nome-do-usuario
