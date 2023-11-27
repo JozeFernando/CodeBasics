@@ -1,3 +1,14 @@
 Verificando versão : git --version
 Lista de configurações dentro do git : git config --global --list        / Para sair basta apertar "Q"
 Configurar usuario: git config --global user.name nome-do-usuario
+Configurar email: git config --global user.email email-do-usuario@hotmail.com
+
+
+COMANDOS BASICOS:
+ls ou dir : Verifica os arquivos do diretorio que você está
+cd nome-do-diretorio/ : Comando para você entrar no diretorio
+touch nome-do-arquivo.extensão: comando para criar arquivos em diretorios
+mkdir nome-do-diretorio: cria diretorio
+rm nome-do-arquiv0: remove o arquivo do diretorio
+rmdir nome-do-diretorio: remnove o diretorio
+cd .. : Retorna uma pasta que você estava
