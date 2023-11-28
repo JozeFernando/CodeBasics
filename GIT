@@ -1,3 +1,4 @@
+
 Verificando versão : git --version
 Lista de configurações dentro do git : git config --global --list        / Para sair basta apertar "Q"
 Configurar usuario: git config --global user.name nome-do-usuario
@@ -22,7 +23,8 @@ git commit -m "mensagem" : Caso você queira adicionar uma mensagem no commit
 
 
 Desfazer coisas:
-chekout : baixa , retorna um ponto mas não desfaz as coisas para frente
+chekout : baixa , retorna um ponto mas não desfaz as coisas para frente 
+  Esse comando muda BRANCH , ID , 
 revert : media , retorna em um ponto e desfaz oque você fez MAS cria um novo commit sem aquele ponto desfeito
 reset : alta , retorna em um ponto e apaga tudo até aquele ponto mas fica algumas alterações
  ( se quiser apagar commits mas deixar as alterações)  
@@ -31,3 +33,12 @@ git reset id-commit --hard : essa forma apaga tudo sem chance de retornar
 
 git log --oneline : retorna os id mais condensados
 git log: retorna de forma mais completa os id
+
+touch .gitignore : Comando que cria um arquivo onde dentro dele oque for adicionado será ignorado pelo git.
+    Dentro do arquivo .gitignore  coloque .nome-do-arquivo
+
+git branch -D nome-da-branch : Esse comando com D deleta de qualquer forma a branch , com d ele pergunta se caso tiver algum commit, se tiver commit você precisa push ou deletar e depois excluir
+
+git merge : Traz arquivos de outra branch para a branch que você está usando.
+  Caso tenha algum conflito , apos resolver faça um commit sem mensagem
+
