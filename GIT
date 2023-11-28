@@ -2,6 +2,8 @@ Verificando versão : git --version
 Lista de configurações dentro do git : git config --global --list        / Para sair basta apertar "Q"
 Configurar usuario: git config --global user.name nome-do-usuario
 Configurar email: git config --global user.email email-do-usuario@hotmail.com
+Adicionar 2 comandos em 1 linha : basta colocar && na linha
+  git add . %% git commit -m "Nova função" | Esse comando vai adicionar arquivos e fazer um commit
 
 
 COMANDOS BASICOS:
@@ -19,3 +21,10 @@ git commit : Para fazer um commit
 git commit -m "mensagem" : Caso você queira adicionar uma mensagem no commit 
 
 
+Desfazer coisas:
+chekout : baixa , retorna um ponto mas não desfaz as coisas para frente
+revert : media , retorna em um ponto e desfaz algumas coisas
+reset : alta , retorna em um ponto e apaga tudo até aquele ponto
+
+git log --oneline : retorna os id mais condensados
+git log: retorna de forma mais completa os id
