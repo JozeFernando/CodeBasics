@@ -25,6 +25,7 @@ git commit -m "mensagem" : Caso você queira adicionar uma mensagem no commit
 Desfazer coisas:
 chekout : baixa , retorna um ponto mas não desfaz as coisas para frente 
   Esse comando muda BRANCH , ID , 
+git checkout -b nome-da-branch : cria uma branch e já altera para ela
 revert : media , retorna em um ponto e desfaz oque você fez MAS cria um novo commit sem aquele ponto desfeito
 reset : alta , retorna em um ponto e apaga tudo até aquele ponto mas fica algumas alterações
  ( se quiser apagar commits mas deixar as alterações)  
@@ -42,3 +43,16 @@ git branch -D nome-da-branch : Esse comando com D deleta de qualquer forma a bra
 git merge : Traz arquivos de outra branch para a branch que você está usando.
   Caso tenha algum conflito , apos resolver faça um commit sem mensagem
 
+git push endereço-do-diretorio nome-da-branch : Para enviar arquivos para o github
+  Exemplo: git push https://github.com/JozeFernando/CodeBasics.git main
+  Vai enviar o arquivo para o diretorio na branch main
+
+git remote add origin endereço-do-diretorio : esse comando faz com que origin receba o endereço do diretorio da proxima basta 
+  git push origin main
+
+git remote -v : mostra todos os "apelidos"
+
+git clone endereço-do-diretorio nome-novo-opcional: clonar um diretorio na maquina |Caso queira alterar o nome, basta coloca-lo no final.
+
+rm -rf : Comando para se quiser excluir uma pasta de vez
+** Configure sua SSH depois
