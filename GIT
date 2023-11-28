@@ -15,4 +15,7 @@ cd .. : Retorna uma pasta que você estava
 nano : abri editor de texto
 cat: exibe oque está dentro do arquivo
 
-git commit : Para fazer um commit   / git commit -m "mensagem" : Caso você queira adicionar uma mensagem no commit 
+git commit : Para fazer um commit   
+git commit -m "mensagem" : Caso você queira adicionar uma mensagem no commit 
+
+
