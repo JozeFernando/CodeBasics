@@ -55,4 +55,8 @@ git remote -v : mostra todos os "apelidos"
 git clone endereço-do-diretorio nome-novo-opcional: clonar um diretorio na maquina |Caso queira alterar o nome, basta coloca-lo no final.
 
 rm -rf : Comando para se quiser excluir uma pasta de vez
+
+
+
+
 ** Configure sua SSH depois
