@@ -6,3 +6,5 @@ Baixar uma versão Stand Lone do Chrome: https://www.google.com/intl/pt-BR/chrom
 Site de emojis: https://emojipedia.org/
 
 Pagina de emoji git: https://github.com/ikatyang/emoji-cheat-sheet
+
+Site que mostra meu ip e de sites que eu queira: https://iplocation.net
