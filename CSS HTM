@@ -1,0 +1,35 @@
+HTML
+
+<h1> Titulo-de-Algo </h1>: Criando um titulo, oque fica entre < > é chamado de tag
+<p> Parágrafo-de-texto </p>: Cria um paragrafo
+
+<img src="foto.png" alt="Exemplo de foto">: Isso adiciona uma imagem
+  src - significa source
+  alt - Caso não aparece a imagem ira aparecer "Exemplo de imagem"
+
+Estrutura basica de html:
+  <!DOCTYPE html>
+    <html lang="pt-br">
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width,
+        initial-scale=1.0">
+        <title>Document</title>
+        </head>
+      <body>  
+        <h1> Olá Mundo! </h1>
+        </body>
+    </html>
+
+
+
+css
+
+Para editar H1:
+  h1 {
+    font-family: Arial;
+    font-size: 20pt;
+    color: blue;
+   }
+Isso significa que a fonte será arial no tamanho vinte e azul
