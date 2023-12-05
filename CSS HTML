@@ -2,6 +2,18 @@ HTML
 
 <h1> Titulo-de-Algo </h1>: Criando um titulo, oque fica entre < > é chamado de tag
 <p> Parágrafo-de-texto </p>: Cria um paragrafo
+<hr>: Cria uma linha horizontal
+<br>: Quebra a linha
+&lt; &gt; :  Less than / Greater than
+
+&reg;  : Aparece o simbolo de marca registrada
+&copy; : Aparece o simbolo do copyright
+&euro - &pound - &yen - &cent
+
+&#xNumero-do-codigo-do-emoji-no-emojipidia: Adiciona emojis
+  Exemplo: &#x1F525 - Foguinho
+
+control + espaço : Clica no meio das aspas e ele abre os arquivos que tem na pasta.
 
 <img src="foto.png" alt="Exemplo de foto">: Isso adiciona uma imagem
   src - significa source
