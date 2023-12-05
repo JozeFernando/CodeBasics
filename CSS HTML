@@ -7,7 +7,7 @@ HTML
   src - significa source
   alt - Caso não aparece a imagem ira aparecer "Exemplo de imagem"
 
-Estrutura basica de html:
+Estrutura basica de html: Para criar , basta apertar ! e aguardar.
   <!DOCTYPE html>
     <html lang="pt-br">
       <head>
