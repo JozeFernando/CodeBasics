@@ -4,11 +4,13 @@ HTML
 <p> Parágrafo-de-texto </p>: Cria um paragrafo
 <hr>: Cria uma linha horizontal
 <br>: Quebra a linha
+
+
 &lt; &gt; :  Less than / Greater than
 
 &reg;  : Aparece o simbolo de marca registrada
 &copy; : Aparece o simbolo do copyright
-&euro - &pound - &yen - &cent
+&euro; &pound; &yen; &cent;
 
 &#xNumero-do-codigo-do-emoji-no-emojipidia: Adiciona emojis
   Exemplo: &#x1F525 - Foguinho
@@ -16,8 +18,13 @@ HTML
 control + espaço : Clica no meio das aspas e ele abre os arquivos que tem na pasta.
 
 <img src="foto.png" alt="Exemplo de foto">: Isso adiciona uma imagem
+  Aperte control e espaço no meio das aspas de src e ele vai aparecer para selecionar
+    Você tambem pode adicionar um link ali , cuidado , se a pessoa excluir a imagem do link você perde a imagem tambem
   src - significa source
   alt - Caso não aparece a imagem ira aparecer "Exemplo de imagem"
+
+Adicionar um favicon:
+  Na parte da head acima de tittle, escreva link e selecione favicon
 
 Estrutura basica de html: Para criar , basta apertar ! e aguardar.
   <!DOCTYPE html>
@@ -34,9 +41,16 @@ Estrutura basica de html: Para criar , basta apertar ! e aguardar.
         </body>
     </html>
 
-
-
+Existem diferentes tipos de texto : Pense como se fosse um indice de livro , h1 é o titulo principal e dentro dele vai ramificando
+h1 h2 h3 h4 h5 h6 
+      
+Para ficar rapido:
+ control + shift + p - Abre os processos recem usados
+ wrap to envelope - Adiciona espaços antes e depois no espaço selecionado 
 css
+
+Se quiser alterar a cor de um marcado altere dentro das parenteses dele mesmo
+        Se quiser alterar todos os marcadores, vai na head e crie um style para os marcadores
 
 Para editar H1:
   h1 {
