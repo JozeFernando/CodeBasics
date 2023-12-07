@@ -4,15 +4,9 @@ HTML
 <p> Parágrafo-de-texto </p>: Cria um paragrafo
 <hr>: Cria uma linha horizontal
 <br>: Quebra a linha
-
-
 &lt; &gt; :  Less than / Greater than
 
-&reg;  : Aparece o simbolo de marca registrada
-&copy; : Aparece o simbolo do copyright
-&euro; &pound; &yen; &cent;
-
-&#xNumero-do-codigo-do-emoji-no-emojipidia: Adiciona emojis
+&#xcodigo-do-emoji: Adiciona emojis
   Exemplo: &#x1F525 - Foguinho
 
 control + espaço : Clica no meio das aspas e ele abre os arquivos que tem na pasta.
@@ -24,33 +18,26 @@ control + espaço : Clica no meio das aspas e ele abre os arquivos que tem na pa
   alt - Caso não aparece a imagem ira aparecer "Exemplo de imagem"
 
 Adicionar um favicon:
-  Na parte da head acima de tittle, escreva link e selecione favicon
+  Na parte da head acima de tittle, escreva link e selecione favicon.
 
 Estrutura basica de html: Para criar , basta apertar ! e aguardar.
-  <!DOCTYPE html>
-    <html lang="pt-br">
-      <head>
-        <meta charset="UTF-8">
-        <meta name="viewport"
-        content="width=device-width,
-        initial-scale=1.0">
-        <title>Document</title>
-        </head>
-      <body>  
-        <h1> Olá Mundo! </h1>
-        </body>
-    </html>
 
-Existem diferentes tipos de texto : Pense como se fosse um indice de livro , h1 é o titulo principal e dentro dele vai ramificando
-h1 h2 h3 h4 h5 h6 
+Existem diferentes tipos de texto : 
+  Pense como se fosse um indice de livro , h1 é o titulo principal e dentro dele vai ramificando
+  h1 h2 h3 h4 h5 h6 
       
 Para ficar rapido:
  control + shift + p - Abre os processos recem usados
- wrap to envelope - Adiciona espaços antes e depois no espaço selecionado 
-css
+ wrap to envelope - Adiciona espaços antes e depois no espaço selecionado css
 
 Se quiser alterar a cor de um marcado altere dentro das parenteses dele mesmo
         Se quiser alterar todos os marcadores, vai na head e crie um style para os marcadores
+
+Transformar uma parte em tipo de codigo
+        Esse comando <code>print</code>("Teste python") está em formato codigo fonte
+        Sempre coloque "pre" antes do code, pois dai ele fica tabulado correto
+
+
 
 Para editar H1:
   h1 {
