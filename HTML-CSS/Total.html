@@ -154,5 +154,46 @@
     <p>Se quiser que abra na propia pagina, faça assim <a href="pagina2.html" target="_self">link</a></p>
 
     <p>Indo para uma 3° pagina <a href="Imagens/pag3.html">Link</a></p>
+
+    <h2>Download de links</h2>
+    <p>Basta fazer assim : <a href="SoTeste.rar" download="SoTeste.rar">link</a></p>
+    <p>Ou tambem : <a href="Download-teste.pdf"download="Download-teste.pdf"="	application/pdf">link</a></p> <!-- Se o pdf não baixar ele vai abrir em outra pagina dai é só baixar-->
+
+    <h2>Imagens dinamicas</h2>
+    <p>Vamos tentar abrir imagens flexiveis em formatos diferentes:</p>
+    <picture>
+        <source media="(max-width: 700px)" srcset="Imagens/Pequena.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="Imagens/Medio.jpg" type="image/jpg">
+        <img src="Imagens/Grande.jpg" alt="Imagem grande">
+       <!-- A forma de pensar é assim: max-width (Se o navegador for menor que 1050px de largura entãoo carregue tao imagem)--> 
+       <!-- TEM QUE ESTAR TUDO EM ORDEM!!! DE TAMANHO, SE NÃO DA ERRADO !!!-->
+
+    <h2>Reproduzindo Audio:</h2>
+    <p>1° Maneira <audio src="Cool Revenge - Jeremy Blake.mp3" preload="metadata"loop></audio></p>
+    </picture>
+
+    <!-- 
+    <p>Tambem pode ser assim: Se tiver varios modelos
+            <audio preload="metadata" loop>
+                  Esse paramentro do preload significa que ele carregou apenas os metadados, o outro formato auto e none, o site só tera carregado tudo depois do audio, então não é bom colocalos,
+                    loop deixa a musica repetindo 
+
+        <source src="Cool Revenge - Jeremy Blacke.ogg" type="audio/ogg">
+        <source src="Cool Revenge - Jeremy Blacke.wav" type="wav"
+    </audio>
+  Primeiro ele carrega ogg , depois wav e depois outros modelos, tudo depende do navegador| wAV É O MAIS PESADO CUIDADO AO USA-LO   -->
+
+    <h2>Carregando video</h2>
+    <p>Aqui vai um jeito</p>
+
+    <video src= "video-720p.mp4" autoplay controls width="500"  loop ></video>
+
+    <video width="500" controls poster="foto400-10.JPG">
+        <source src="video-1080.mp4" type="video/mp4">
+
+        <!-- Dessa forma da para adicionar varios modelos do mesmo video para diferentes dispositivos, e poster faz uma capa para o video, cuidado com a quantidade de video pois pode pesar o site.-->
+
+
+    </video>   
 </body>
 </html>
