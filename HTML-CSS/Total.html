@@ -28,31 +28,45 @@
 
     <h2>Textos formatados</h2>
     <p>Deixando em <b>negrito</b> um texto</p>
-    <p>Deixando <strong>STRONG</strong> uma parte do texto, isso significa (semântica) </p>
+
+    <p>Deixando <strong>STRONG</strong> uma parte do texto, isso 
+    significa (semântica) </p>
+    
     <p>Deixando algo em <i>italico</i> sem semantica</p>
+    
     <p>Deixando algo em <em>italico</em> com semantica</p>
 
     <h2>Textos Marcados</h2>
     <p> Deixando um texto marcado com <mark>mark</mark></p>
+    
     <p>Deixando um texto <mark style="background-color: rgb(140, 229, 229);">marcado</mark> com outra cor </p>
+    
     <p>Colocando um texto grande</p>
+    
     <p>Colocando um <small>texto pequeno</small></p>
+    
     <p>texto <del>deletado</del></p>
+    
     <p>Texto <ins>adicionado</ins></p>
+    
     <p>Texto SOBREscrito : Igual assim 1<sup>20</sup>=1</p>
+    
     <p>Texto subscrito: Dessa forma aqui H<sub>2</sub>O</p>
     
     <h2>Formatações diferentes: </h2>
     <p>Uma palavra escrita como <code>codigo</code></p>
+   
     <p>Sempre utilize pre no codigo:</p>
-    <p>Sem <pre></pre></p>
+   
+    <p>Sem pre:</p>
     <p><code>
         num=int(input(digite um numero))
             if num == 0
                 print (Numero correto)
     </code>
     </p>
-    <p>com <pre></pre></p>
+    
+    <p>com pre: </p>
     <p><pre>
         <code>
             num=int(input(digite um numero))
@@ -64,10 +78,12 @@
 <h2>Abreviações e Citações: </h2>
     </p>
     <p>Para escrever uma citação basta fazer <q>dessa forma, assim fica com sentindo a frase</q></p>
+    
     <p>Se for uma citação longa você faz dessa forma: <BR>Tem que colocar o endereço dentro de cite para os mecanismos de busca</BR></p>
     <blockquote cite="https://onepieceex.net/">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure nam ipsum, molestias similique repellendus ut. Tempore consequuntur voluptatum molestias sint exercitationem qui earum, nihil expedita corporis aut voluptatibus nostrum a.</blockquote>
 
     <p>Para se abreviar algo tem que ser dessa forma : <abbr title="Tchutchuca">22k</abbr></p>
+    
     <p>Se algum dia precisar escrever dessa forma assim que se faz . <bdo dir="rtl">Se algum dia precisar escrever fica assim</bdo></p>
 
     <h2>Listas: </h2>
@@ -123,7 +139,20 @@
     </dl>
 
     <h2>Usando links</h2>
+    <h3>Externo</h3>
     <p>Essa parte está linkado com meu <a href="https://github.com/oojoze/CodeBasics" target="_blank" rel="external">repositorio do gitHub</a></p> <!-- Utilize sempre targe _blank e rel external | Dessa forma abre outra aba e seu site fica aberto-->
 
+    <h3>Interno</h3>
+    <p>Aqui você vai para uma 2° pagina : <a href="pagina2.html"rel="next">link</a></p> <!-- Dessa forma a pg 2 tem que estar na mesma pagina do arquivo original, tem que estar juntas-->
+    
+    <!-- Caso você não tenha certeza do link que ira colocar ou não quer que o mecanismo entenda esseé o que precisa colocar: 
+        <a href="https://www.xvideos.com" target="_blank" rel="nofollow" >Site perigoso</a>-->
+    
+    <p>Dessa forma caso o arquivo esteja em uma pasta <a href="Imagens/foto2.JPG">link</a></p>
+        <!-- Usei imagem mas poderia ser uma 2° pagina-->
+
+    <p>Se quiser que abra na propia pagina, faça assim <a href="pagina2.html" target="_self">link</a></p>
+
+    <p>Indo para uma 3° pagina <a href="Imagens/pag3.html">Link</a></p>
 </body>
 </html>

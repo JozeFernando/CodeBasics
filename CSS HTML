@@ -1,6 +1,7 @@
 HTML
 
-<h1> Titulo-de-Algo </h1>: Criando um titulo, oque fica entre < > é chamado de tag
+<h1> Titulo-de-Algo </h1>: Criando um titulo
+  oque fica entre < > é chamado de tag
 <p> Parágrafo-de-texto </p>: Cria um paragrafo
 <hr>: Cria uma linha horizontal
 <br>: Quebra a linha
