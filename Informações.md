@@ -9,10 +9,15 @@ Pagina de emoji git: https://github.com/ikatyang/emoji-cheat-sheet
 
 Site que mostra meu ip e de sites que eu queira: https://iplocation.net
 
-Sites com imagens possiveis de serem utilizadas : https://unsplash.com/pt-br | https://www.pexels.com/pt-br/
-    No google imagens,marque a opção : licença para edição e distribuição
+Sites com imagens possiveis de serem utilizadas:
 
-Site com icones para utilizar e editar : https://www.iconarchive.com/ | https://favicon.io/
+ UnSplash | Pexels | FreePik | Rawpixel | Pixabay | Libreshot | Wikimedia Commons
+ No google imagens,marque : licença para edição e distribuição
 
-Site com varios media types: https://www.iana.org/assignments/media-types/media-types.xhtml
+Site com icones para utilizar e editar :
+https://www.iconarchive.com/
+https://favicon.io/
+
+Site com varios media types:
+https://www.iana.org/assignments/media-types/media-types.xhtml
 
