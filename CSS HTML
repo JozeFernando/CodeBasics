@@ -47,3 +47,23 @@ Para editar H1:
     color: blue;
    }
 Isso significa que a fonte será arial no tamanho vinte e azul
+
+FONTE
+
+  Medidas absolutas : cm,mm,px,pt,pc - w3c recomenda px 
+  Medida relativas : em,ex,rem,vw,vh,% - w3c recomenda utilizar o em
+
+  font-family - sans-serif,serif
+  font-weight - lighter normal bold bolder
+  font-size - em ou px - utilize menos px
+  font-style - italic,normal
+
+  Para simplificar todas as declarações de fonte em uma só faça assim
+    font: font-style -> font-weight -> font-size -> font-family 
+
+    font: italic bolder 3em 'work Sans', sans-serif;
+
+    Se não quiser declarar algo pode
+      font: bolder 3em ...
+
+Para importar fontes, va no google fonts , encontre a foto em embed copie e cole na parte que deseja mudar
