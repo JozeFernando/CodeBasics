@@ -2,25 +2,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
 body{
+    text-align: justify;
     color: #000000;
     background-image: linear-gradient(#c70ad8c9,#0b6783a3);
     background-attachment: fixed;
 }
+
 p{
     background-color: aqua;
     font-size: large;
     width: 80px;
 }
+
 main {
     background-color:#ffffff;
     font-size: 12px;
-    text-align: center;
+    
     padding: 30px; /* Significa espaçamento dos lados */
     content-visibility: auto;
 }
 
-h3{
+h1#Titulo {
+    text-align: center;
+    background-image: linear-gradient(#c13b3b,#4db6fcaf );
+}
+
+h3:hover{
+    background-color: wheat;
+    text-indent: 20px; /* Isso é a endrada no começo do texto, o espaço que vai ter*/
     font-family: 'Dancing Script', cursive;
     font-size: 1em;
     text-decoration: #77e22b underline;
+}
+
+.meio{
+    text-shadow: 1px 3px 4px #c13b3b;
+    box-shadow: ;
 }
