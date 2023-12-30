@@ -17,9 +17,10 @@ p{
 main {
     background-color:#ffffff;
     font-size: 12px;
-    
+    margin: 30px;
     padding: 30px; /* Significa espaçamento dos lados */
     content-visibility: auto;
+    text-align: center;
 }
 
 h1#Titulo {

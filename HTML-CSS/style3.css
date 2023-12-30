@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+:root{
+    --cor1 : #d23131;
+    --cor2 : #aa7272;
+    --cor3 : #ff0000;
+}
+
+header > h1 {
+    color: var(--cor2);
+    text-align: center;
+   
+}
+
+main{
+    color: var(--cor3);
+    text-shadow: 2px 1px 8px #0000004f; 
+}
+
+a:visited{
+    color: rgb(47, 0, 255);
+}
+
+a:hover{
+    color: #d23131;
+}
