@@ -1,0 +1,67 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@600&display=swap');
+@font-face {
+    font-family: 'Redondinha';
+    src: url(Stopbuck.ttf) format('opentype');
+    font-weight: normal;
+
+}
+
+:root{
+    --cor1: #F2DC6B;
+    --cor2: #D9B504;
+    --cor3: #F2F2F2;
+    --cor4: #F27EEA;
+    --cor5: #F288CD;
+
+    --fonte-padrao: Arial,Verdana,Helvetica, sans-serif;
+    --fonte-diferente: 'Lexend Zetta', sans-serif;
+    --fonte-baixada: 'Redondinha', sans-serif;
+
+}
+
+*{ /* Isso daqui significa "configuração global" */
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--cor1);
+    max-width: 600px;
+    min-width: 400px;
+    margin: auto;
+    
+}
+header{
+    background-color: var(--cor2);
+    padding: 10px;
+    margin: 0;
+    font-family:var(--fonte-diferente) ;
+}
+nav{
+    background-color: #fbd086;
+    text-align: center;
+}
+main{
+    background-color: #F2F2F2;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 6px 3px 3px 0px #00000063;
+}
+main img{
+    width: 100%;
+}
+article>h2{
+    font-family: var(--fonte-baixada);
+    color: var(--cor4);
+}
+
+footer{
+    background-color: var(--cor2);
+    padding: 1px;
+    margin: 7px;
+    border-radius: 10px;
+    text-align: center;
+}
