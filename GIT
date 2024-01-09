@@ -25,7 +25,9 @@ git commit -m "mensagem" : Caso você queira adicionar uma mensagem no commit
 Desfazer coisas:
 chekout : baixa , retorna um ponto mas não desfaz as coisas para frente 
   Esse comando muda BRANCH , ID , 
+git checkout -m main : Isso altera o nome da branch, é importante alterar a master e colocar como nome de main pois é o padrao sendo usado
 git checkout -b nome-da-branch : cria uma branch e já altera para ela
+git checkout master ou main : Retorna para a ultima versão do codigo.
 revert : media , retorna em um ponto e desfaz oque você fez MAS cria um novo commit sem aquele ponto desfeito
 reset : alta , retorna em um ponto e apaga tudo até aquele ponto mas fica algumas alterações
  ( se quiser apagar commits mas deixar as alterações)  
@@ -56,7 +58,7 @@ git clone endereço-do-diretorio nome-novo-opcional: clonar um diretorio na maqu
 
 rm -rf : Comando para se quiser excluir uma pasta de vez
 
-
+git pull origin: puxar arquivos do github 
 
 
 ** Configure sua SSH depois

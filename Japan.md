@@ -40,3 +40,24 @@ tchikatetsu - metrô
 ato - depois | geralmente se acrescente o d no final - Ex: Vai lavar o saco.   A eu vou ato-d.
 sakana - peixe
 atsui - calor
+hatake - plantação  
+hito - pessoa
+taifuu - tufão
+heso - umbigo
+hosoi - magro
+namae - nome
+mitchi - rua
+mukashi - antigamente
+ame - se a intonação estiver no a é chuva | se estiver no me é bala(doce)
+yoru - noite
+yume - sonho
+yon - quatro 
+riyuu - razão
+kuruma - carro
+rei - exemplo
+iro - cor
+san - três
+kagi - chave
+hyaku - 100
+byouin - hospital
+  
