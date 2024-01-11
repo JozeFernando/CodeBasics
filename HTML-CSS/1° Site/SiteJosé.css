@@ -10,7 +10,7 @@
 :root{
     --cor1: #F2DC6B;
     --cor2: #D9B504;
-    --cor3: #F2F2F2;
+    --cor3: #f2f2f2;
     --cor4: #F27EEA;
     --cor5: #F288CD;
 
@@ -24,7 +24,12 @@
     margin: 0;
     padding: 0;
 }
-
+.quadrado{
+    display: inline-block;
+    border: 7 solid #000000cb;
+    width: 100px;
+    height: 100px;
+    }
 body{
     background-color: var(--cor1);
     max-width: 600px;
@@ -56,7 +61,7 @@ nav{
     text-align: center;
 }
 main{
-    background-color: #F2F2F2;
+    background-color: #ffffff;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     padding: 20px;
@@ -78,3 +83,4 @@ footer{
     border-radius: 10px;
     text-align: center;
 }
+

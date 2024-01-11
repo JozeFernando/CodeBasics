@@ -60,4 +60,27 @@ san - três
 kagi - chave
 hyaku - 100
 byouin - hospital
-  
+
+----------------------------
+jikoshoukai - Apresentação pessoal
+hajimemashite - Muito prazer ( É para hora de se apresentar, Sempre no começo )
+yoroshikuonegaishimasu - Fim de apresentação ( Sempre no final )
+
+Desu - Serve para terminar uma frase educadamente
+De quem é - no - oqué
+
+-------------------------------------------
+Watashi no namae wa José Desu
+
+Watashi = eu
+Meu = Eu + no
+namae = Nome
+Wa = É ou o verbo ser
+----------------------------------------------
+Watashi wa burajirujin desu
+
+Brazil se fala = Burajiru (Buradjiru)
+Jin = Nacionalidade
+Burajirunjin = Brasileiro
+------------------------------------
+Watashi wa nijyuugo desu
