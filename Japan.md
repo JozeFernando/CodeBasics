@@ -84,3 +84,6 @@ Jin = Nacionalidade
 Burajirunjin = Brasileiro
 ------------------------------------
 Watashi wa nijyuugo desu
+
+nijyuugo - 25
+-------------------------------------
